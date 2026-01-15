@@ -1,0 +1,28 @@
+/* التنسيقات المخصصة للعائلة */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* تحريك الأشكال في الخلفية */
+@keyframes blob-bounce {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+.animate-blob {
+  animation: blob-bounce 10s infinite alternate ease-in-out;
+}
+
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-4000 { animation-delay: 4s; }
+
+/* تأثيرات النصوص الفاخرة */
+.text-gradient {
+  background: linear-gradient(to left, #059669, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

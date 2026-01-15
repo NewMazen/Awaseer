@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Awaseer",
+  "description": "A sophisticated and elegant family portal for the descendants of Muhyi al-Din Malibari, featuring achievements, social initiatives, talents, and family news.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
